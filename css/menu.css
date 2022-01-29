@@ -1,0 +1,74 @@
+#menu{
+	background-color: #1f2329;
+	max-width: 250px;
+	padding-right: 10px;
+	margin-top: -17px;
+	float:left;
+	
+}
+
+.menuindex{
+	height: 817px;
+}
+
+.menuarticles{
+	height:1650px;
+}
+
+.menuactus{
+	height: 1700px;
+}
+
+.accueil p:hover, .articles p:hover, .actualites p:hover, .forum p:hover, .don p:hover{ 
+	font-weight: bold;
+}
+
+.accueil {
+	list-style-image: url(../images/menu/accueil.png);
+	margin-left: 10px;
+	}
+
+.articles{
+	list-style-image: url(../images/menu/articles.png);
+	margin-left: 10px;
+	}
+
+.actualites {
+	list-style-image: url(../images/menu/actualites.png);
+	margin-left: 10px;
+	}
+
+.forum {
+	list-style-image: url(../images/menu/forumdaide.png);
+	margin-left: 10px;
+	}
+
+.don {
+	list-style-image: url(../images/menu/dons.png);
+	margin-left: 10px;
+	}
+
+.accueil p, .articles p, .actualites p, .forum p, .don p{
+	text-decoration: underline #1f2329;
+	transform: translateY(-10px);
+	font-family: Raleway, Helvetica, sans-serif ;
+	font-size: 17.5px;
+	color: #8f9194;
+}
+
+.blocarticles{
+	margin-left: 5px;
+}
+
+.derarticle{
+	color: white;
+	max-width: 200px;
+	font-style: italic;
+	margin-left: 10px;
+}
+
+#menu h4{
+	margin-top: 100px;
+	color: white;
+	font-size: 20px;
+}

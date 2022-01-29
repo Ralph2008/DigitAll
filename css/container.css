@@ -1,0 +1,105 @@
+div#contenu {
+	width: auto;
+	height: 800px;
+	background-color: white;
+	}
+
+/*STYLE DE LA PAGE NOS ARTICLES*/
+
+.contenuarticles{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+article{
+	border: thick double black;
+	width: 300px;
+	height: 450px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+
+article img{
+	max-width: 300px;
+}
+
+article img:hover{
+	filter: blur(1.5px);
+	opacity: 1;
+}
+
+article h2{
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+article hr{
+	height: 5px;
+	background-color: #CECECE;
+	filter: blur(1px);
+	width: 55%;
+	text-align: left;
+	margin-left: 27.5px;
+	margin-top: -5px;
+}
+
+article p{
+	margin-left: 10px;
+	margin-right: 5px;
+	text-align: justify;
+}
+
+article li{
+	text-align: right;
+	list-style-image: url("../images/articles/fleche.png");
+	text-decoration: none;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+   	margin-top: -4px;
+   	margin-right: 17.5px;
+}
+
+.ensavplus{
+	text-decoration: none;
+	color: black;
+}
+
+/*STYLE DE LA PAGE ACUALITÉS*/
+
+.titreactu{
+	text-align: center;
+	text-decoration: underline overline;
+}
+.textactu{
+	font-weight: bold;	
+	text-align: center;
+	font-family: Rubik, sans-serif;
+}
+
+.imgactualites{
+	margin-left: 30%;
+	max-width: 500px;
+}
+
+/*STYLE DE LA PAGE FORUM D'AIDE*/
+
+.titre{ 
+	text-align: center;
+	font-size: 30;
+	font-family: Raleway, Helvetica, sans-serif;
+}
+.question{ 
+	margin-left: 30px;	
+	text-align: left;
+	font-family: Rubik, sans-serif;
+	font-weight: bold;
+} 
+.reponse{ 
+	margin-right: 30px;
+	text-align: right;
+	font-family: Rubik, sans-serif;
+	font-weight: bold;
+}
